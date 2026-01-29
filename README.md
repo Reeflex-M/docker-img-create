@@ -235,4 +235,4 @@ Une fois que l'action aura tourné (tu peux vérifier dans l'onglet "Actions" de
 *(N'oublie pas de remplacer `USERNAME` par ton pseudo)*.
 2. Une dernière fois : `git add`, `git commit`, `git push`.
 
-Dis-moi quand tu as réussi l'installation (Étape 1), et nous pourrons analyser tes résultats ensemble !
+Dis-moi quand tu as réussi l'installation (Étape 1), et nous pourrons analyser tes résultats ensemble !s
