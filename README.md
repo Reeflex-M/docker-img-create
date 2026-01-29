@@ -16,8 +16,8 @@ VERSION=$(curl -s "https://api.github.com/repos/ossf/scorecard/releases/latest" 
 # Note : Le nom du fichier extrait dépend souvent de l'architecture, on va lister après extraction.
 curl -sSL "https://github.com/ossf/scorecard/releases/download/v${VERSION}/scorecard_${VERSION}_linux_amd64.tar.gz" | tar -xz
 
-# 3. Déplacer le binaire (le nom du fichier extrait est généralement 'scorecard-linux-amd64')
-sudo mv scorecard-linux-amd64 /usr/local/bin/scorecard
+# 3. Déplacer le binaire 
+sudo mv scorecard /usr/local/bin/scorecard
 
 # 4. Vérifier l'installation
 scorecard version
@@ -227,7 +227,7 @@ Une fois que l'action aura tourné (tu peux vérifier dans l'onglet "Actions" de
 
 
 ```markdown
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/USERNAME/scorecard-demo/badge)](https://securityscorecards.dev/viewer/?uri=github.com/USERNAME/scorecard-demo)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/USERNAME/scorecard-demo/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Reeflex-M/scorecard-demo)
 
 ```
 
