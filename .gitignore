@@ -1,0 +1,11 @@
+# Éviter de versionner les secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignorer les logs et les fichiers système
+*.log
+.DS_Store
+node_modules/
